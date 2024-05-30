@@ -2,6 +2,8 @@
 
 This project demonstrates a step-by-step process to build a real estate price prediction website using machine learning. The application predicts home prices in Bangalore based on various features such as area, number of bedrooms, etc. The project involves three main components: model building, backend server, and frontend website.
 
+The IP address of my website is:http://3.106.166.163/
+
 ## Project Components
 
 1. **Model Building**:
