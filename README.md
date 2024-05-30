@@ -1,9 +1,34 @@
-This data science project series walks through step by step process of how to build a real estate price prediction website. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step would be to write a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools wise this project covers,
+# Bangalore Home Prices Prediction
 
-1.Python
-2.Numpy and Pandas for data cleaning
-3.Matplotlib for data visualization
-4. Sklearn for model building
-5.Jupyter notebook, visual studio code and pycharm as IDE
-6. Python flask for http server
-7. HTML/CSS/Javascript for UI
+This project demonstrates a step-by-step process to build a real estate price prediction website using machine learning. The application predicts home prices in Bangalore based on various features such as area, number of bedrooms, etc. The project involves three main components: model building, backend server, and frontend website.
+
+## Project Components
+
+1. **Model Building**:
+    - Load and clean the dataset.
+    - Perform outlier detection and removal.
+    - Feature engineering and dimensionality reduction.
+    - Model building using Scikit-learn and Linear Regression.
+    - Hyperparameter tuning using GridSearchCV.
+    - Model evaluation using K-fold cross-validation.
+
+2. **Backend Server**:
+    - Create a Python Flask server to serve HTTP requests.
+    - Use the trained model to respond with predicted home prices.
+
+3. **Frontend Website**:
+    - Develop a user interface with HTML, CSS, and JavaScript.
+    - Allow users to input home features (e.g., square footage, number of bedrooms).
+    - Communicate with the Flask server to retrieve and display the predicted price.
+
+## Technologies and Tools
+
+- Python
+- Numpy and Pandas for data cleaning
+- Matplotlib for data visualization
+- Scikit-learn for model building
+- Jupyter Notebook, Visual Studio Code, and PyCharm as IDEs
+- Python Flask for the HTTP server
+- HTML/CSS/JavaScript for the frontend
+- AWS EC2 for cloud deployment
+- Nginx for web server
